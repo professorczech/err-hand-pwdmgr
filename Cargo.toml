@@ -1,0 +1,11 @@
+[package]
+name = "error_handling-pwmgr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes = "0.8.4"
+cbc = { version = "0.1.2", features = ["alloc"] }
+rand = "0.8"
+base64 = "0.21"
+cipher = { version = "0.4.4", features = ["block-padding"] }
